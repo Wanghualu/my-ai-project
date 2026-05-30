@@ -1,0 +1,10 @@
+# 模型权重、检查点
+pretrain_models/
+outputs/checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Python缓存
+__pycache__/
+*.pyc
