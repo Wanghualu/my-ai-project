@@ -8,3 +8,14 @@ outputs/checkpoints/
 # Python缓存
 __pycache__/
 *.pyc
+# 忽略旧项目输出权重
+text_classification项目/outputs/
+# 新项目预训练模型&权重
+sequence-labeling-multimodel-experiment/pretrain_models/
+sequence-labeling-multimodel-experiment/outputs/checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+__pycache__/
+*.pyc
