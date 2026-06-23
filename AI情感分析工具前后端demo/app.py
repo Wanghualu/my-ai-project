@@ -14,7 +14,7 @@ from flask import Flask, jsonify, request, send_from_directory
 
 # DeepSeek API 密钥：在 https://platform.deepseek.com 注册并创建
 # 建议通过环境变量 DEEPSEEK_API_KEY 设置，也可直接替换下面的字符串
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "输入你已充值好的deepseekAPI 密钥:sk-开头")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "你的api密钥")  # 替换为你的 DeepSeek API 密钥，或设置环境变量 DEEPSEEK_API_KEY
 
 # DeepSeek API 地址（OpenAI 兼容格式）
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
